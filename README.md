@@ -17,6 +17,10 @@ returns to normal instantly.
 3. Open it. macOS will block the first launch (the app isn't notarized) — go to
    **System Settings → Privacy & Security**, scroll down, and click **"Open Anyway"**.
    *(Terminal alternative: `xattr -dc /Applications/SoundKnobs.app`)*
+3. Open it — macOS will show *"Apple could not verify SoundKnobs…"*. Click
+   **Done** (not Move to Trash!), then go to **System Settings → Privacy &
+   Security**, scroll down to find the SoundKnobs message, and click
+   **Open Anyway**.
 4. Click the slider icon in the menu bar. The **first time you move a slider**,
    macOS asks for **System Audio Recording** permission — approve it, then move
    the slider again.
