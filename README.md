@@ -12,7 +12,7 @@ returns to normal instantly.
 
 ## Install (no building required)
 
-1. **[Download SoundKnobs.zip](https://github.com/CyberValeriy/SoundKnobs/releases/latest/download/SoundKnobs.zip)** from the latest release.
+1. **[Download SoundKnobs.zip](https://github.com/valeriy777-ua/SoundKnobs/releases/latest/download/SoundKnobs.zip)** from the latest release.
 2. Unzip it and drag **SoundKnobs.app** into your **Applications** folder.
 3. Open it. macOS will block the first launch (the app isn't notarized) — go to
    **System Settings → Privacy & Security**, scroll down, and click **"Open Anyway"**.
@@ -50,7 +50,7 @@ for apps whose slider you've moved.
 ## Build from source
 
 ```bash
-git clone https://github.com/CyberValeriy/SoundKnobs.git
+git clone https://github.com/valeriy777-ua/SoundKnobs.git
 cd SoundKnobs
 ./build.sh
 open build/SoundKnobs.app
