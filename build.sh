@@ -7,7 +7,7 @@ echo "==> Compiling universal binary (release)…"
 swift build -c release --arch arm64 --arch x86_64
 
 APP="build/SoundKnobs.app"
-BIN=".build/apple/Products/Release/SoundKnobs"
+BIN="$(swift build -c release --arch arm64 --arch x86_64 --show-bin-path)/SoundKnobs"
 
 echo "==> Assembling ${APP}…"
 rm -rf build
